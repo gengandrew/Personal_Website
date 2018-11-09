@@ -1,0 +1,512 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CS540</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CS540 Course Homepage">
+    <link rel="canonical" href="index.html">
+
+    <!-- Set href to an ico file to add a browser tab icon. -->
+    <link rel="shortcut icon" href="images/badger.ico" type="image/vnd.microsoft.icon">
+
+    <!-- Flatly Bootstrap Theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/journal/bootstrap.min.css">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Panels CSS -->
+    <link rel="stylesheet" href="css/panels.css">
+
+    <!-- Sidebar CSS -->
+    <link rel="stylesheet" href="css/simple-sidebar.css">
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy">
+
+    <div id="wrapper">
+        <nav id="sidebar-wrapper" class="navbar navbar-default nav-side-menu">
+            <h1 class="brand"></h1>
+            <div class="menu-list">
+                <ul id="menu-content" class="nav nav-stacked nav-pills menu-content">
+                    <li role="presentation"><a href="index.html">Home</a></li>
+                    <li role="presentation"><a href="about.html">About</a></li>
+                    <li role="presentation" class="active"><a href="schedule.html">Schedule</a></li>
+                    <li role="presentation"><a href="coursework.html">Coursework</a></li>
+                    <hr>
+                    <li><a class="brand" href="http://www.wisc.edu/"><img class="thumbnail center-block" src="images/uw-madison-badger-logo.jpg"></img></a></li>
+                    <li><a class="brand" href="https://www.cs.wisc.edu/"><img class="thumbnail center-block" src="images/uw-madison-cs-logo.jpg"></img></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="section1">
+            <a href="schedule.html#menu-toggle" clazz="btn btn-default" id="menu-toggle"><i class="fa fa-bars fa-2x toggle-btn"></i></a>
+        </section>
+
+        <div id="page-content-wrapper">
+            <section class="container-fluid section1">
+
+                <div class="row">
+                    <div class="col-md-8">
+                        <h1>Introduction to Artificial Intelligence</h1>
+                    </div>
+                    <div class="col-md-4">
+                        <p>
+                            CS540, Spring 2018<br>
+                            Department of Computer Sciences<br>
+                            University of Wisconsin–Madison<br>
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+            <hr>
+
+            <section class="container-fluid section2" name="toTop" id="topPos">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h2 id="notes">Important Notes</h2>
+                        <p>
+                            This schedule is <b>tentative</b> and subject to change. Please
+                            check back often.
+                        </p>
+
+                        <h4>How to interpret the column Readings in the Tentative Schedule </h4>
+                        <p>
+                            Those explicitly noted as optional are for students interested in that specific topic. "A, B; C; D" means to read (A OR B) AND C AND D. Text in red means a link to the reading material.
+                        </p>
+
+                        <h2 id="schedule">Tentative Schedule</h2>
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover">
+                                <tbody>
+                                    <tr class="leading">
+                                        <th>Date</th>
+                                        <th>Lecture</th>
+                                        <th>Readings</th>
+                                        <th>Homework Released</th>
+                                        <th>Homework Due</th>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Jan 24, Fri Jan 26</td>
+                                        <td>course overview <a href="slides/intro.pdf">[Slides]</a> </td>
+                                        <td><a href="https://ai100.stanford.edu/2016-report">Stanford One Hundred Year Study on Artificial Intelligence</a></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Jan 29, Wed Jan 31, Fri Feb 2</td>
+                                        <td>uninformed search <a href="slides/uninformed_search.pdf">[Slides]</a> </td>
+                                        <td>Textbook chapter 3</td>
+                                        <td>Homework 1 released. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Feb 5</td>
+                                        <td>informed search part 1 <a href="slides/informed_search_part1.pdf">[Slides]</a> </td>
+                                        <td>Textbook chapter 3</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Feb 7</td>
+                                        <td>informed search part 2 <a href="slides/informed_search_part2.pdf">[Slides]</a> </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Homework 1 due. See the <a href="coursework.html">coursework webpage</a>. </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fri Feb 9</td>
+                                        <td>search review  </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Feb 12</td>
+                                        <td>advanced search part 1: hill climbing <a href="slides/hillclimbing_part1.pdf">[Slides]</a> </td>
+                                        <td>
+                                            Textbook chapter 4.1;<br>
+                                            Optional: <a href="http://demonstrations.wolfram.com/HillClimbingAlgorithm/">visualization</a> [need to download Wolfram CDF Player]
+                                        </td>
+                                        <td> Homework 2 released. See the <a href="coursework.html">coursework webpage</a>. </td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Feb 14</td>
+                                        <td>advanced search part 2: simulated annealing <a href="slides/hillclimbing_part2.pdf">[Slides]</a> </td>
+                                        <td>
+                                            Optional: <a href="slides/search/opt_by_SA.pdf">Science'83 paper</a>; <br>
+                                            <a href="http://www.heatonresearch.com/aifh/vol1/tsp_anneal.html">Java applet for experiments with simulated annealing</a>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fri Feb 16</td>
+                                        <td>advanced search part 3: genetic algorithms <a href="slides/hillclimbing_part3.pdf">[Slides]</a> </td>
+                                        <td> Optional: <a href="http://cobweb.cs.uga.edu/~potter/CompIntell/ga_tutorial.pdf">In-depth tutorial to genetic algorithms</a></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Feb 19</td>
+                                        <td>game playing part 1: minimax search <a href="slides/games_part1.pdf">[Slides]</a> </td>
+                                        <td> Textbook chapter 5.1-5.3 </td>
+                                        <td>Homework 3 release. See the <a href="coursework.html">coursework webpage</a>. </td>
+                                        <td>Homework 2 due. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Feb 21</td>
+                                        <td>game playing part 2: alpha-beta pruning <a href="slides/games_part2.pdf">[Slides]</a> </td>
+                                        <td>
+                                            Optional reading:<br>
+                                            <a href="https://www.nature.com/articles/nature16961">AlphaGo, Nature article</a>; <br>
+                                            <a href="https://www.technologyreview.com/s/609482/ai-is-dreaming-up-new-kinds-of-video-games/">Report on AI and Video Games</a>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fri Feb 23</td>
+                                        <td>game playing part 3: large games <a href="slides/games_part3.pdf">[Slides]</a> </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+
+                                    <tr>
+                                        <td>Mon Feb 26</td>
+                                        <td> Probability and statistics basics <a href="slides/prob.pdf">[Slides]</a> </td>
+                                        <td>
+                                            Textbook Chapter 14.1, 14.2, 14.4; <br>
+                                            Optional: <a href="https://www.probabilitycourse.com/">Introduction to Probability, Statistics, and Random Processes</a>
+                                        </td>
+                                        <td>Homework 4 released. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                        <td>Homework 3 due. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Feb 28</td>
+                                        <td>Probability and statistics basics: continued </td>
+                                        <td>
+                                            Optional: <br>
+                                            1. Textbook for randomized methods (with elegant examples) <a href="https://www.amazon.com/Probability-Computing-Randomized-Algorithms-Probabilistic/dp/0521835402">Probability and Computing: Randomized Algorithms and Probabilistic Analysis</a> <br>
+                                            2. Textbook with rigorous treatment of probability theory: <a href+"https://www.amazon.com/Probability-Cambridge-Statistical-Probabilistic-Mathematics/dp/0521765390">Probability: Theory and Examples</a>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fri Mar 2</td>
+                                        <td>Probability and statistics basics: continued </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Mar 5</td>
+                                        <td>Natural language and statistics <a href="slides/nlp.pdf">[Slides]</a></td>
+                                        <td>
+                                            <a href="slides/NLP/NLP.pdf">[Jerry Zhu's notes]</a>; <br>
+                                            Optional: <br>
+                                            1. <a href="https://nlp.stanford.edu/software/"> Stanford NLP softwares, including English Tokenizer</a>; <br>
+                                            2. Textbook for Statistical Natural Language Processing: <a href="https://nlp.stanford.edu/fsnlp/">Foundations of Statistical Natural Language Processing</a>
+                                        </td>
+                                        <td>Homework 5 released. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                        <td>Homework 4 due. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Mar 7</td>
+                                        <td>Natural language and statistics: continued </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fri Mar 9</td>
+                                        <td>Linear algebra and Principal Component Analysis (PCA) <a href="slides/PCA.pdf">[Slides]</a></td>
+                                        <td>
+                                            <a href="slides/PCA/PCA.pdf">[Jerry Zhu's notes]</a>; <br>
+                                            <a href="http://pages.cs.wisc.edu/~jerryzhu/cs769/math_background.pdf">Jerry Zhu's note on math background</a>;<br>
+                                            <a href="slides/PCA/demo/PCA.m">matlab demo PCA.m</a> with its data files <a href="slides/PCA/demo/vocabulary_stopword_removal.txt">vocabulary_stopword_removal.txt</a> and <a href="slides/PCA/demo/WARC201709BOW.txt">WARC201709BOW.txt</a>; <br>
+                                            <a href="http://people.csail.mit.edu/jsolomon/share/book/numerical_book.pdf">Numerical Algorithms</a>, Chapter 1;
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Mar 12</td>
+                                        <td> Review <a href="slides/midterm_review.pdf">[Slides]</a> </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Homework 5 due. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Mar 14</td>
+                                        <td> Review continued </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            Wed Mar 14, 7:15 pm - 8:15 pm<br>
+                                            Midterm Exam
+                                        </td>
+                                        <td>Room: Ingraham Hall Room B10</td>
+                                        <td></td>
+                                        <td>Homework 6 released. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fri Mar 16</td>
+                                        <td>Propositional logic part 1 <a href="slides/pl_part1.pdf">[Slides]</a></td>
+                                        <td>Textbook Chapter 7.1, 7.3 - 7.5</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Mar 19</td>
+                                        <td>Propositional logic part 1 continued</td>
+                                        <td></td>
+                                        <td>Homework 7 released. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Mar 21</td>
+                                        <td>Propositional logic part 2 <a href="slides/pl_part2.pdf">[Slides]</a></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fri Mar 23</td>
+                                        <td>First order logic part 1 <a href="slides/fol_part1.pdf">[Slides]</a></td>
+                                        <td>Textbook Chapter 8.1-8.3</td>
+                                        <td></td>
+                                        <td>Homework 6 due. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mar 24 - Apr 1</td>
+                                        <td> Spring recess </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Apr 2</td>
+                                        <td>First order logic part 2 <a href="slides/fol_part2.pdf">[Slides]</a></td>
+                                        <td>Optional: Textbook Chapter 9</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Apr 4</td>
+                                        <td> Introduction to Machine Learning part 1: hierarchical clustering <a href="slides/introML_part1.pdf">[Slides]</a></td>
+                                        <td>
+                                            <a href="http://www.morganclaypool.com/doi/abs/10.2200/S00196ED1V01Y200906AIM006">
+                                                Introduction to Semi-Supervised Learning, Xiaojin Zhu and Andrew B. Goldberg
+                                            </a> Chapter 1 [free access from UW IP addresses]; <br>
+                                            <a href="http://colah.github.io/posts/2015-01-Visualizing-Representations/">visualizing representations</a>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fri Apr 6</td>
+                                        <td>Introduction to Machine Learning part 2: k-means clustering <a href="slides/introML_part2.pdf">[Slides]</a> </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Apr 9</td>
+                                        <td> Introduction to Machine Learning part 3: k-nearest neighbor and linear regression <a href="slides/introML_part3.pdf">[Slides]</a></td>
+                                        <td> <a href="slides/linear_regression/regression.pdf"> [Jerry Zhu's notes]</a> </td>
+                                        <td>Homework 8 released. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                        <td>Homework 7 due. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Apr 11</td>
+                                        <td> Introduction to Machine Learning part 4: linear classification <a href="slides/introML_part4.pdf">[Slides]</a></td>
+                                        <td> <a href="slides/linear_regression/regression.pdf"> [Jerry Zhu's notes]</a> </td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fri Apr 13</td>
+                                        <td> Review <a href="slides/logic_ml_review.pdf">[Slides]</a></td>
+                                        <td>Optional: machine learning textbook <a href="https://www.microsoft.com/en-us/research/people/cmbishop/#prml-book"><em>Pattern Recognition and Machine Learning</em></a> by Chris Bishop.</td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Apr 16</td>
+                                        <td> Review continued</td>
+                                        <td> </td>
+                                        <td>Homework 9 released. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                        <td>Homework 8 due. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Apr 18</td>
+                                        <td> Neural networks part 1: perceptron <a href="slides/neural_part1.pdf"> [Slides]</a> </td>
+                                        <td>
+                                            Textbook Chapter 18.7; <br>
+                                            <a href="http://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf">Nature'15 Review</a>; <br>
+                                            Optional: <a href="http://www.deeplearningbook.org/">Deep learning book</a>
+                                        </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fri Apr 20</td>
+                                        <td> Neural networks part 2: multiple layer neural networks <a href="slides/neural_part2.pdf"> [Slides]</a></td>
+                                        <td>  <a href="http://colah.github.io/posts/2015-08-Backprop/">visualizing backpropagation</a></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Apr 23</td>
+                                        <td> Neural networks part 3: convolutional neural networks <a href="slides/neural_part3.pdf"> [Slides]</a> </td>
+                                        <td>
+                                            <a href="http://pages.cs.wisc.edu/~vamsi/files/cs540convnets_small.pdf">[Vamsi Ithapu's slides]</a>; <br>
+                                            <a href="http://colah.github.io/posts/2014-07-Understanding-Convolutions/">visualizing convolutional neural networks</a>
+                                        </td>
+                                        <td>Homework 10 released. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                        <td>Homework 9 due. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed Apr 25</td>
+                                        <td> Reinforcement learning part 1: introduction and Markov Decision Process <a href="slides/reinforcement_part1.pdf"> [Slides]</a></td>
+                                        <td>  <a href="http://incompleteideas.net/book/the-book-2nd.html"> Reinforcement learning: an introduction, 2nd ed., Sutton and Barto</a>, Chapter 1, 3, 6.5<br></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Fri Apr 27</td>
+                                        <td> Reinforcement learning part 2: Q-learning <a href="slides/reinforcement_part2.pdf"> [Slides]</a></td>
+                                        <td> <a href="slides/RL/Qlearning.m">Matlab demo code for Qleanring</a></td>
+                                        <td> <a href="hw/11_reinforcement/hw11.pdf">Exercise</a> for reinforcement learning and <a href="hw/11_reinforcement/hw11solution.pdf">solution</a> </td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Mon Apr 30</td>
+                                        <td> Review <a href="slides/nn_reinforcement_review.pdf">[Slides]</a> </td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Wed May 2</td>
+                                        <td></td>
+                                        <td> </td>
+                                        <td></td>
+                                        <td>Homework 10 due. See the <a href="coursework.html">coursework webpage</a>.</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            Sunday May 6, 10:05AM - 12:05PM <br>
+                                            Final Exam
+                                        </td>
+                                        <td> room VAN VLECK B102, VAN VLECK B105</td>
+                                        <td>  </td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div> <!-- //Close Col -->
+                </div>
+            </section>
+
+            <hr>
+            <section class="container-fluid footer" id="footer">
+                <footer>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p><small>Last updated January 20, 2018 (05:22 PM).</small></p>
+                            <p>
+                                <small>
+                                    This website is powered
+                                    by <a href="https://jekyllrb.com/">Jekyll</a> and
+                                    <a href="http://getbootstrap.com">Bootstrap</a>,
+                                    and the template is borrowed from <a href="http://www.cs.cmu.edu/~mgormley/courses/10601b-f16/index.html">Nina and Matt</a>.
+                                </small>
+                        </div>
+                    </div>
+            </div>
+        </footer>
+        </section>
+    </div>
+    </div>
+
+    <!-- jQuery [required for Bootstrap] -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <!-- MathJax -->
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+    <!-- Custom javascripts -->
+    <script src='js/toc.js'></script>
+    <script src='js/panels.js'></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+            $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#wrapper").toggleClass("toggled");
+            $("#toggler").toggleClass("toggled");
+            });
+    </script>
+</body>
+</html>

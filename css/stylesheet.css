@@ -1,0 +1,45 @@
+a{ 
+  color: inherit; border-bottom: 1px dashed #ccc;
+}
+
+td.myPic{
+  padding-top: 25px;
+}
+
+div.panel_right{
+    position: fixed;
+    right: 15px;
+    top: 25px;
+    z-index: 100;
+    width: 190px;
+}
+
+a:hover, a:active, a:focus{ 
+  color: inherit; text-decoration: none; border-bottom: 1px solid black; outline: none;
+}
+
+ul, ol{
+  padding-left: 30px;
+}
+
+li {padding: 5px 0;}
+
+@media (max-width: 1026px){
+  div.panel_right{
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  .fixed {position: fixed;}
+}
+
+.info {
+  margin: 50px 0;
+}
+.info td:nth-child(1) {
+  width: 250px;
+}
+.info td:nth-child(2) {
+  padding-left: 3%;
+}

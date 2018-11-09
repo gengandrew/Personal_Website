@@ -1,0 +1,17 @@
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bin\Debug\ReverseMap\resources.pri
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bin\Debug\AppxManifest.xml
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bin\Debug\Personal Website S.build.appxrecipe
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\Personal Website S.jsproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\ResourceHandlingTask.state
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\priconfig.xml
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\priconfig.xml.intermediate
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\layout.resfiles
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\layout.resfiles.intermediate
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\resources.resfiles
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\resources.resfiles.intermediate
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\pri.resfiles
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\pri.resfiles.intermediate
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\qualifiers.txt
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\qualifiers.txt.intermediate
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\ProjectArchitectures.txt

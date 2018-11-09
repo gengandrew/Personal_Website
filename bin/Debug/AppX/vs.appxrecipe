@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-P6UEEMMF</Machine>
+    <WindowsUser>andre</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>c7d9e426-c808-492d-b17f-31fe45a4d6f7</PackageIdentityName>
+    <PackageIdentityPublisher>CN=andre</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\andre\source\repos\Personal Website S\Personal Website S\bld\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>
+    </WindowsSdkPath>
+    <LayoutDir>C:\Users\andre\source\repos\Personal Website S\Personal Website S\bin\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>3A50A7A61245ACCA09C6559F30F687ED86339AD460A9AACA902049FCD75C633A</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c7d9e426-c808-492d-b17f-31fe45a4d6f7_1.0.0.0_neutral__ptkdchz042z66</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c7d9e426-c808-492d-b17f-31fe45a4d6f7_ptkdchz042z66!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c7d9e426-c808-492d-b17f-31fe45a4d6f7</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=andre</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-15T20:22:44.184</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\about.html">
+      <PackagePath>about.html</PackagePath>
+      <Modified>2018-05-15T20:45:09.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\coursework.html">
+      <PackagePath>coursework.html</PackagePath>
+      <Modified>2018-05-15T20:45:09.146</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\index.html">
+      <PackagePath>index.html</PackagePath>
+      <Modified>2018-05-15T20:34:18.825</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\schedule.html">
+      <PackagePath>schedule.html</PackagePath>
+      <Modified>2018-05-15T20:45:09.134</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\css\custom.css">
+      <PackagePath>css\custom.css</PackagePath>
+      <Modified>2018-05-15T20:05:45.797</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\css\panels.css">
+      <PackagePath>css\panels.css</PackagePath>
+      <Modified>2018-05-15T20:05:45.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\css\simple-sidebar.css">
+      <PackagePath>css\simple-sidebar.css</PackagePath>
+      <Modified>2018-05-15T20:05:45.772</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+      <Modified>2018-05-15T19:59:44.992</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\images\badger.ico">
+      <PackagePath>images\badger.ico</PackagePath>
+      <Modified>2018-05-15T20:00:55.285</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\images\uw-madison-badger-logo.jpg">
+      <PackagePath>images\uw-madison-badger-logo.jpg</PackagePath>
+      <Modified>2018-05-15T20:04:07.182</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\images\uw-madison-cs-logo.jpg">
+      <PackagePath>images\uw-madison-cs-logo.jpg</PackagePath>
+      <Modified>2018-05-15T20:04:11.194</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\images\LockScreenLogo.scale-200.png">
+      <PackagePath>images\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2018-05-15T19:23:01.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\images\SplashScreen.scale-200.png">
+      <PackagePath>images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-15T19:23:01.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\images\Square150x150Logo.scale-200.png">
+      <PackagePath>images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-15T19:23:01.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\images\Square44x44Logo.scale-200.png">
+      <PackagePath>images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-15T19:23:01.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-15T19:23:01.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\images\StoreLogo.png">
+      <PackagePath>images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-15T19:23:01.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\images\Wide310x150Logo.scale-200.png">
+      <PackagePath>images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-15T19:23:01.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+      <Modified>2018-05-15T19:59:45.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\js\panels.js">
+      <PackagePath>js\panels.js</PackagePath>
+      <Modified>2018-05-15T20:05:45.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\js\toc.js">
+      <PackagePath>js\toc.js</PackagePath>
+      <Modified>2018-05-15T20:07:30.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\andre\source\repos\Personal Website S\Personal Website S\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2018-05-15T20:22:44.054</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
